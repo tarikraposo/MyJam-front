@@ -16,24 +16,24 @@ import { RecoverPassword } from "../pages/RecoverPassword";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Home />,
+    element: <Onboarding />,
   },
-  {
-    path: "/login",
-    element: <Login />,
-  },
-  {
-    path: "/register",
-    element: <Register />,
-  },
-  {
-    path: "/recoverpassword",
-    element: <RecoverPassword />,
-  },
-  {
-    path: "/newpassword",
-    element: <NewPassword />,
-  },
+  // {
+  //   path: "/login",
+  //   element: <Login />,
+  // },
+  // {
+  //   path: "/register",
+  //   element: <Register />,
+  // },
+  // {
+  //   path: "/recoverpassword",
+  //   element: <RecoverPassword />,
+  // },
+  // {
+  //   path: "/newpassword",
+  //   element: <NewPassword />,
+  // },
   {
     path: "/onboarding",
     element: <OnBoarding />,
